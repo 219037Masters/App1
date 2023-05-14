@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1.Api", "src\App1.Api\App1.Api.csproj", "{402A7435-A52A-4FCD-BB72-5F6C77E16E83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0EE97B7A-DE09-4728-84D2-B62C84F128E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{304C09DF-231D-4615-B4DB-4629E8F0EB73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{12AA156A-710D-4CDA-A861-BBE0ADEFB082}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pipelines", "pipelines", "{EB9CACF3-ED5C-4C7A-91F8-4B389D3AA7B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bicep", "bicep", "{BCF94292-1DB1-4B64-8FB9-03A8BB3E5834}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s", "k8s", "{F47510FF-5035-444A-8354-1758335075ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "helm", "helm", "{35A38A12-0514-412C-AEA1-90F474B5355B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D0FEF701-C421-4798-A775-5D7885AAE6FB}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{402A7435-A52A-4FCD-BB72-5F6C77E16E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402A7435-A52A-4FCD-BB72-5F6C77E16E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402A7435-A52A-4FCD-BB72-5F6C77E16E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402A7435-A52A-4FCD-BB72-5F6C77E16E83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{402A7435-A52A-4FCD-BB72-5F6C77E16E83} = {0EE97B7A-DE09-4728-84D2-B62C84F128E3}
+		{EB9CACF3-ED5C-4C7A-91F8-4B389D3AA7B7} = {12AA156A-710D-4CDA-A861-BBE0ADEFB082}
+		{BCF94292-1DB1-4B64-8FB9-03A8BB3E5834} = {12AA156A-710D-4CDA-A861-BBE0ADEFB082}
+		{F47510FF-5035-444A-8354-1758335075ED} = {12AA156A-710D-4CDA-A861-BBE0ADEFB082}
+		{35A38A12-0514-412C-AEA1-90F474B5355B} = {F47510FF-5035-444A-8354-1758335075ED}
+	EndGlobalSection
+EndGlobal

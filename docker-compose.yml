@@ -1,0 +1,6 @@
+﻿services:
+  app1.api:
+    image: dmeshko/app1.api
+    build:
+      context: .
+      dockerfile: src/App1.Api/Dockerfile
